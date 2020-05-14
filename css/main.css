@@ -59,6 +59,7 @@
   color: orange;
   padding: 5px;
   margin: 0 5px;
+  border-radius: 10px;
 }
 
 .orange-button{
@@ -67,6 +68,7 @@
   background-color: orange;
   color: white;
   padding: 5px;
+  border-radius: 10px;
 }
 
 /* second nav */
@@ -103,3 +105,32 @@ li a{
 }
 
 /* jumbo */
+
+.jumbo{
+  height: 700px;
+  background-image: url("../img/jumbotron.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #33475b;
+}
+
+.jumbo .contained{
+  width: 35%;
+  padding-top: 200px;
+}
+
+.jumbo h2{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.jumbo span{
+  font-size: 20px;
+}
+
+.contained .orange-button{
+  display: inline-block;
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px 0 ;
+}
