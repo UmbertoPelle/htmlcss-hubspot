@@ -166,15 +166,18 @@ li a{
 
 .free-hubspot{
   width: 80%;
+  height: 250px;
   border: solid 1px black;
   border-radius: 5px;
   background-color: white;
+  color: #33475b;
 }
 
 .collums25{
   float: left;
-  width: 25%;
+  width: 23%;
   text-align: center;
+  margin-right: 2%;
 }
 
 #button-books{
@@ -183,9 +186,24 @@ li a{
 
 .img-books{
   width: 100%;
+  margin-top: 10px;
 }
 
 .img-books img{
   width: 100%;
   padding-left: 20px;
+}
+
+.collums75 i{
+  color: orange;
+  margin: 10px 10px;
+}
+
+.collums75 h2{
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.collums75 p{
+  margin: 15px 0 ;
 }
