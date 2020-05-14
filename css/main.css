@@ -24,8 +24,9 @@
   height: 50px;
   width: 100%;
   border-bottom: solid 1px black;
-  /* position: fixed;
-  z-index: 999; */
+  position: fixed;
+  top:0;
+  left: 0;
 }
 
 #contact{
@@ -72,6 +73,7 @@
 #second-nav{
   height: 50px;
   width: 100%;
+  margin-top: 50px;
 }
 
 .logo{
@@ -99,3 +101,5 @@ li a{
   color: black;
 
 }
+
+/* jumbo */
