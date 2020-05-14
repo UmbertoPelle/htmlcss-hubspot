@@ -16,6 +16,10 @@
   clear: both;
 }
 
+section{
+  margin-bottom: 20px;
+}
+
 /* header */
 
 /* nav fixed */
@@ -133,4 +137,55 @@ li a{
   font-size: 40px;
   padding: 10px;
   margin: 10px 0 ;
+}
+
+/* main prima sezione */
+
+#first-section{
+  background-color: lightblue;
+}
+
+.img-cube{
+  margin: 0 auto;
+  width: 300px;
+}
+
+.img-cube img{
+  width: 100%;
+}
+
+.text-cube{
+  text-align: center;
+  color: #33475b;
+}
+
+.text-cube h2{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.free-hubspot{
+  width: 80%;
+  border: solid 1px black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.collums25{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+#button-books{
+  margin-top: 20px;
+}
+
+.img-books{
+  width: 100%;
+}
+
+.img-books img{
+  width: 100%;
+  padding-left: 20px;
 }
