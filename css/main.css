@@ -164,6 +164,7 @@ li a{
   margin-bottom: 10px;
 }
 
+/* primo rettangolo bianco */
 .free-hubspot{
   width: 80%;
   height: 250px;
@@ -206,4 +207,8 @@ li a{
 
 .collums75 p{
   margin: 15px 0 ;
+}
+
+.collums75 strong{
+  margin-right: 20px;
 }
