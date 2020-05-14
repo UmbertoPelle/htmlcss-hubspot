@@ -24,8 +24,8 @@
   height: 50px;
   width: 100%;
   border-bottom: solid 1px black;
-  position: fixed;
-  z-index: 999;
+  /* position: fixed;
+  z-index: 999; */
 }
 
 #contact{
@@ -66,4 +66,36 @@
   background-color: orange;
   color: white;
   padding: 5px;
+}
+
+/* second nav */
+#second-nav{
+  height: 50px;
+  width: 100%;
+}
+
+.logo{
+  float: left;
+  width: 100px;
+  padding-top: 10px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.list-header ul{
+  float: right;
+}
+
+li{
+  display: inline-block;
+  line-height: 50px;
+  margin-right: 5px;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+
 }
