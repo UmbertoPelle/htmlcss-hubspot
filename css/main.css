@@ -24,7 +24,7 @@ section{
 
 /* nav fixed */
 #first-nav{
-  background-color: #e9f1f3;
+  background-color: #f5f8fa;
   height: 50px;
   width: 100%;
   border-bottom: solid 1px black;
@@ -69,7 +69,7 @@ section{
 .orange-button{
   display: inline;
   text-decoration: none;
-  background-color: orange;
+  background-color: #ff7a59;
   color: white;
   padding: 5px;
   border-radius: 10px;
@@ -142,7 +142,7 @@ li a{
 /* main prima sezione */
 
 #first-section{
-  background-color: #e9f1f3;
+  background-color: #f5f8fa;
 }
 
 .img-cube{
@@ -180,6 +180,12 @@ li a{
   text-align: center;
 }
 
+.collums75{
+  float: left;
+  width: 73%;
+  margin-left: 2%;
+}
+
 #button-books{
   margin-top: 20px;
 }
@@ -195,7 +201,7 @@ li a{
 }
 
 .collums75 i{
-  color: orange;
+  color: #ff7a59;
   margin: 10px 10px;
 }
 
@@ -234,7 +240,7 @@ li a{
 }
 
 .collums33 i{
-  color: orange;
+  color: #ff7a59;
   margin: 0 10px;
 }
 
@@ -264,4 +270,36 @@ li a{
 .collums33 .orange-button{
   display: inline-block;
   margin-bottom: 20px;
+}
+
+/* seconda sezione */
+
+#second-section{
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  color: white;
+  text-align: center;
+}
+
+#second-section h2{
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 40px;
+  width: 100%
+}
+
+#second-section p{
+  margin: 30px 0;
+}
+
+.img-table{
+  height:40px;
+}
+
+.img-table img{
+  max-width: 150px;
+  max-height: 100%;
+}
+
+#second-section .collums25{
+  border-right: solid 1px white;
 }
