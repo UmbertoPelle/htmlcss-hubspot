@@ -313,15 +313,16 @@ li a{
 
 /* terza sezione */
 
+/* riga customers */
 .row.global{
   margin-top: 70px;
+  color: #33475b;
 }
 
 .collums40{
   float: left;
   width: 40%;
   padding-top: 5%;
-  color: #33475b;
 }
 
 .collums40 h2{
@@ -346,4 +347,31 @@ li a{
 .collums60 .collums25 img{
   max-width: 100%;
   padding: 10%;
+}
+
+/* riga start growing */
+
+.collums50{
+  float: left;
+  width: 50%;
+}
+
+.collums50 img{
+  padding-left: 35%; 
+  max-height: 400px;
+}
+
+.collums50 h2{
+  font-size: 40px;
+}
+
+.collums50 p{
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.collums50 a{
+  display: inline-block;
+  padding: 5% 7%;
+  margin-bottom: 20px;
 }
