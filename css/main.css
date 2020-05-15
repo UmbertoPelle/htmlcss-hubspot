@@ -21,11 +21,13 @@ section{
 }
 
 .white-button{
-  display: inline;
   text-decoration: none;
   background-color: white;
-  border: solid 1px orange;
+}
+
+header .white-button{
   color: orange;
+  border: solid 1px orange;
   padding: 5px;
   margin: 0 5px;
   border-radius: 10px;
@@ -99,13 +101,13 @@ section{
   float: right;
 }
 
-li{
+.list-header li{
   display: inline-block;
   line-height: 50px;
   margin-right: 5px;
 }
 
-li a{
+.list-header li a{
   text-decoration: none;
   color: black;
 
@@ -384,7 +386,46 @@ li a{
 
 /* footer */
 
+/*sezione con liste */
+
 footer{
-  height: 400px;
   background-color: #335374;
+}
+
+footer h3{
+  color: #fff;
+  font-size: 20px;
+}
+
+footer .row.global{
+  padding: 80px 0;
+}
+
+footer ul li{
+  list-style: none;
+  padding: 15px 0;
+}
+
+footer li a{
+  text-decoration: none;
+  color: #cbd6e2;
+  font-size: 20px;
+}
+
+footer .collums25{
+  padding: 0 10px;
+}
+
+footer .white-button{
+  display: inline-block;
+  color: #33475b;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+footer a i{
+  color: #cbd6e2;
+  margin: 15px 10px;
+  font-size: 25px;
 }
