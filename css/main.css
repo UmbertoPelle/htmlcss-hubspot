@@ -113,6 +113,7 @@ li a{
 .jumbo{
   height: 700px;
   background-image: url("../img/jumbotron.png");
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   color: #33475b;
@@ -308,4 +309,41 @@ li a{
 
 .collums25.riga{
   border-top: solid 1px white;
+}
+
+/* terza sezione */
+
+.row.global{
+  margin-top: 70px;
+}
+
+.collums40{
+  float: left;
+  width: 40%;
+  padding-top: 5%;
+  color: #33475b;
+}
+
+.collums40 h2{
+  font-size: 55px;
+}
+
+.collums40 p{
+  font-size: 25px;
+}
+
+.collums60{
+  float: left;
+  width: 60%;
+  padding-top: 40px;
+}
+
+.collums60 .collums25{
+  height: 100px;
+  line-height: 125px;
+}
+
+.collums60 .collums25 img{
+  max-width: 100%;
+  padding: 10%;
 }
