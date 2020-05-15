@@ -20,6 +20,26 @@ section{
   margin-bottom: 20px;
 }
 
+.white-button{
+  display: inline;
+  text-decoration: none;
+  background-color: white;
+  border: solid 1px orange;
+  color: orange;
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+.orange-button{
+  display: inline;
+  text-decoration: none;
+  background-color: #ff7a59;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 /* header */
 
 /* nav fixed */
@@ -27,7 +47,7 @@ section{
   background-color: #f5f8fa;
   height: 50px;
   width: 100%;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px lightblue;
   position: fixed;
   top:0;
   left: 0;
@@ -53,26 +73,6 @@ section{
 .login{
   float: right;
   line-height: 50px;
-}
-
-.white-button{
-  display: inline;
-  text-decoration: none;
-  background-color: white;
-  border: solid 1px orange;
-  color: orange;
-  padding: 5px;
-  margin: 0 5px;
-  border-radius: 10px;
-}
-
-.orange-button{
-  display: inline;
-  text-decoration: none;
-  background-color: #ff7a59;
-  color: white;
-  padding: 5px;
-  border-radius: 10px;
 }
 
 /* second nav */
