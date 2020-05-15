@@ -17,7 +17,7 @@
 }
 
 section{
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .white-button{
@@ -401,12 +401,12 @@ footer .row.global{
   padding: 80px 0;
 }
 
-footer ul li{
+.footer-list li{
   list-style: none;
   padding: 15px 0;
 }
 
-footer li a{
+.footer-list li a{
   text-decoration: none;
   color: #cbd6e2;
   font-size: 20px;
