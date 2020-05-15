@@ -75,6 +75,9 @@ section{
   line-height: 50px;
 }
 
+.login i{
+  color: #7b7bed;
+}
 /* second nav */
 #second-nav{
   height: 50px;
