@@ -181,6 +181,9 @@ li a{
 .collums25{
   float: left;
   width: 25%;
+}
+
+#second-section .collums25{
   text-align: center;
 }
 
@@ -192,6 +195,7 @@ li a{
 
 #button-books{
   margin-top: 20px;
+  text-align: center;
 }
 
 .img-books{
@@ -257,9 +261,8 @@ li a{
 }
 
 .collums33 hr{
-  margin: 0 auto;
+  margin: 25px auto;
   width: 80%;
-  margin-bottom: 10px;
 }
 
 .collums33 h3{
@@ -380,3 +383,8 @@ li a{
 }
 
 /* footer */
+
+footer{
+  height: 400px;
+  background-color: #335374;
+}
