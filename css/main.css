@@ -119,8 +119,8 @@ header .white-button{
 .jumbo{
   height: 700px;
   background-image: url("../img/jumbotron.png");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: bottom;
   background-repeat: no-repeat;
   color: #33475b;
 }
