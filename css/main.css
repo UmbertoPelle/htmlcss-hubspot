@@ -308,7 +308,6 @@ header .white-button{
 }
 
 #second-section h2{
-  display: inline-block;
   margin-top: 30px;
   font-size: 40px;
   width: 100%
@@ -316,6 +315,10 @@ header .white-button{
 
 #second-section p{
   margin: 30px 0;
+}
+
+#second-section h2, #second-section p{
+  padding: 0 20%;
 }
 
 .img-table{
