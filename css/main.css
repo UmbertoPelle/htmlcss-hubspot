@@ -386,6 +386,10 @@ header .white-button{
 
 /* footer */
 
+footer a:hover, #languages a:hover, footer i:hover, .footer-list a:hover{
+  color: lightblue;
+}
+
 /*sezione con liste */
 
 footer{
@@ -427,5 +431,44 @@ footer .white-button{
 footer a i{
   color: #cbd6e2;
   margin: 15px 10px;
+  font-size: 25px;
+}
+
+/* seszione lingue e copyright */
+
+#languages{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#languages li{
+  display:inline-block;
+  margin: 0 15px;
+}
+
+#languages li a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  float: left;
+}
+
+.copyright, .copyright p{
+  color: #fff;
+  padding: 20px 0;
+}
+
+.legal{
+  float: right;
+  padding-top: 20px;
+}
+
+.legal a{
+  text-decoration: none;
+  color: #fff;
+  padding-right: 15px;
   font-size: 25px;
 }
