@@ -109,8 +109,9 @@ header .white-button{
 
 .list-header li a{
   text-decoration: none;
-  color: black;
-
+  color: #33475b;
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 /* jumbo */
@@ -196,13 +197,17 @@ header .white-button{
 }
 
 #button-books{
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
+#button-books .orange-button{
+  padding: 15px 25px;
+}
+
 .img-books{
-  width: 100%;
-  margin-top: 10px;
+  width: 66%;
+  margin: 20px 25px;
 }
 
 .img-books img{
@@ -226,6 +231,18 @@ header .white-button{
 
 .collums75 strong{
   margin-right: 20px;
+}
+
+.collums75>span{
+  width: 300px;
+  display: inline-block;
+  height: 1px;
+  border-top: solid 1px ;
+  padding-bottom: 5px;
+}
+
+.collums75 div{
+  margin-top: 20px;
 }
 
 /* 3 colonne */
@@ -469,6 +486,6 @@ footer a i{
 .legal a{
   text-decoration: none;
   color: #fff;
-  padding-right: 15px;
+  padding-right: 30px;
   font-size: 25px;
 }
