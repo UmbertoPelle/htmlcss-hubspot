@@ -334,8 +334,12 @@ header .white-button{
 }
 
 #second-section .collums25{
-  border-right: solid 1px white;
   padding: 15px;
+  border-right: solid 1px white;
+}
+
+#second-section .row .collums25:nth-child(4n){
+  border-right: 0;
 }
 
 .collums25.riga{
