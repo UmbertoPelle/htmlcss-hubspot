@@ -251,12 +251,15 @@ header .white-button{
 /* 3 colonne */
 .collums33{
   float: left;
-  width: 31%;
-  margin: 0 1%;
+  width: 32%;
   background-color: white;
   border: solid 1px lightblue;
   text-align: center;
   color: #33475b;
+}
+
+#colonna-centrale{
+ margin: 0 2%
 }
 
 .img-collums{
