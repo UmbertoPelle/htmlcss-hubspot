@@ -35,6 +35,28 @@ section{
   border-radius: 10px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 5% 20%;
+  z-index: 1;
+}
+
+.dropdown-content *:hover{
+  text-decoration: underline;
+}
 /* header */
 
 /* nav fixed */
@@ -118,24 +140,6 @@ header .white-button{
   margin-right: 10px;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 5% 20%;
-  z-index: 1;
-}
 /* jumbo */
 
 .jumbo{
@@ -399,7 +403,7 @@ header .white-button{
 
 .collums60 .collums25{
   height: 100px;
-  line-height: 125px;
+  line-height: 155px;
 }
 
 .collums60 .collums25 img{
