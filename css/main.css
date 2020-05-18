@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .global{
@@ -23,14 +24,6 @@ section{
 .white-button{
   text-decoration: none;
   background-color: white;
-}
-
-header .white-button{
-  color: orange;
-  border: solid 1px orange;
-  padding: 5px;
-  margin: 0 5px;
-  border-radius: 10px;
 }
 
 .orange-button{
@@ -63,6 +56,7 @@ header .white-button{
 
 #contact span{
   margin-right: 10px;
+  color: #33475b;
 }
 
 .border{
@@ -80,6 +74,15 @@ header .white-button{
 .login i{
   color: #7b7bed;
 }
+
+header .white-button{
+  color: orange;
+  border: solid 1px orange;
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
 /* second nav */
 #second-nav{
   height: 50px;
@@ -135,7 +138,7 @@ header .white-button{
   margin-bottom: 5px;
 }
 
-.jumbo span{
+.jumbo p{
   font-size: 20px;
 }
 
